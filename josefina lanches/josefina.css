@@ -1,0 +1,26 @@
+h1 {
+    font-family: Poppins, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+h2 {
+    font-family: Poppins, sans-serif;
+    font-size: 36px;
+    text-align: center;
+}
+
+.banner {
+    background-image:
+    url(https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1453&q=80);
+    width: 1920px;
+    margin:auto;
+    height: 200px;
+    box-align: center;
+    background-size: cover;
+}
+
+.montador {
+    font-family: Poppins, sans-serif;
+    text-align: center;
+}
