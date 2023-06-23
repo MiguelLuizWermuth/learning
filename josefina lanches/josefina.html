@@ -9,15 +9,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+    <script src="josefina.js"></script>
 </head>
 <body>
-    <div class="banner">
-        <div>
+    <header>
+        <div class="banner">
             <h1>JOSEFINA LANCHES</h1>
         </div>
-    </div>
+       
+    </header> 
+        <div class="bannersecoes">
+            <img class="bannersecoes" src="https://images.unsplash.com/photo-1569760142069-bc6838de16c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80" alt="monte sua salada">
+        </div>
     <div class="montador">
         <h2>Monte sua Salada</h2>
+        <p>Escolha cada ingrediente e monte sua salada do seu jeito</p>
         <div>
           <label for="peso">Peso:</label>
           <select id="peso">
@@ -54,7 +69,7 @@
             <input type="checkbox">
             <label>Beterraba</label>
             <input type="checkbox">
-            <label>Vagem</label>
+            <label>Vagem</label>p
             <input type="checkbox">
             <label>Tomate Cereja</label>
             <input type="checkbox">
@@ -85,14 +100,97 @@
           <label for="molho">Molho:</label>
           <select id="molho">
             <option value="caesar">Caesar</option>
-            <option value="azeite-oliva">Azeite de Oliva</option>
+            <option value="azeite-oliva">Azeite de Oliva</option>               
             <option value="picante">Picante</option>
             <option value="maionese-detox">Maionese Detox</option>
           </select>
         </div>
         <h4>Preços: R$ 20,00 - 300g / R$ 22,00 - 350g / R$ 24,00 - 400g</h4>
     </div>
+    <div class="bannersecoes">
+        <img class="bannersecoes" src="https://images.unsplash.com/photo-1568158879083-c42860933ed7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=686&q=80" alt="monte sua salada">
+    </div>
+    <div class="saladasprontas">
+        <h2>Opções de saladas prontas</h2>
+        <p>Escolha a quantidade de cada salada para encomendar</p>
+            <div class="opcoes">
+            <label for="salada-tropicalia">Salada Tropicália - 350kcal (R$ 25,00/UN)</label>
+            <button name="sub">-</button>
+            <input class="inputopcoes" type="number" value="0">
+            <button name="add">+</button>
+            </div>
+            <div class="opcoes">
+                <label for="salada-nacorreria">Salada na Correria - 315kcal (R$ 23,00/UN)</label>
+                <button name="sub">-</button>
+                <input class="inputopcoes" type="number" value="0">
+                <button name="add">+</button>
+            </div>
+            <div class="opcoes">
+                <label for="salada-agridoce">Salada Agridoce - 395kcal (R$ 25,00/UN)</label>
+                <button name="sub">-</button>
+                <input class="inputopcoes" type="number" value="0">
+                <button name="add">+</button>
+            </div>
+    </div>
+    <div class="bannersecoes">
+      <img class="bannersecoes" src="https://images.unsplash.com/photo-1589010588553-46e8e7c21788?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1560&q=80" alt="monte sua salada">
+    </div>
+    <div class="saladascongeladas">
+      <h2>Opções de Pratos prontos</h2>
+      <p>Também temos pratos prontos congelados para você encomendar</p>
+      <div class="opcoes">
+        <label for="lasanha-verdes">Lasanha de verdes com frango (R$ 20,00/UN)</label>
+        <button name="sub">-</button>
+        <input class="inputopcoes" type="number" value="0">
+        <button name="add">+</button>
+      </div>
+      <div class="opcoes">
+        <label for="arroz-beterraba">Arroz beterraba com tilápia ao molho de damasco (R$ 25,00/UN)</label>
+        <button name="sub">-</button>
+        <input class="inputopcoes" type="number" value="0">
+        <button name="add">+</button>
+      </div>
+      <div class="opcoes">
+        <label for="strog-camarao">Strogonoff de camarão com arroz integral (R$ 25,00/UN)</label>
+        <button name="sub">-</button>
+        <input class="inputopcoes" type="number" value="0">
+        <button name="add">+</button>
+      </div>
+      <div class="opcoes">
+        <label for="panqueca-integral">Panqueca integral de frango (R$ 20,00/UN)</label>
+        <button name="sub">-</button>
+        <input class="inputopcoes" type="number" value="0">
+        <button name="add">+</button>
+      </div>
+      <div class="opcoes">
+        <label for="penne-integral">Penne integral com almôndegas (R$ 22,00/UN)</label>
+        <button name="sub">-</button>
+        <input class="inputopcoes" type="number" value="0">
+        <button name="add">+</button>
+      </div>
+      <div class="opcoes">
+        <label for="arroz-broc">Arroz integral, brócolis, cenoura, feijão e carne de panela (R$ 20,00/UN)</label>
+        <button name="sub">-</button>
+        <input class="inputopcoes" type="number" value="0">
+        <button name="add">+</button>
+      </div>
+      <h4>Combos de pratos prontos acima (1, 4, 5 ou 6): 5 unidades = R$ 80,00 ou 10 unidades = R$ 65,00</h4>
+    </div>
+         
   </div>
-</div>
+  <div class="botaoenviar">
+    <button onclick="mensagemEnviado()">Enviar Pedido</button>
+  </div>
+<footer>
+    <p>Entre em contato:</p>
+    <p>Telefone: (XX) XXXX-XXXX</p>
+    <p>Email: contato@josefina.com</p>
+    <p>Siga-nos nas redes sociais:</p>
+    <a href="#" target="_blank"><img src="facebook.png" alt="Facebook"></a>
+    <a href="#" target="_blank"><img src="instagram.png" alt="Instagram"></a>
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d865.5964477054562!2d-51.15328157008494!3d-29.795396933545096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951968eda5d3a201%3A0x5eaff8cfc4e39f47!2sUniversidade%20do%20Vale%20do%20Rio%20dos%20Sinos%20-%20Campus%20S%C3%A3o%20Leopoldo!5e0!3m2!1spt-BR!2sbr!4v1685746851909!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </footer>
 </body>
 </html>

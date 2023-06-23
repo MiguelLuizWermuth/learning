@@ -1,0 +1,22 @@
+body {
+    font-family: Montserrat, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+.secao {
+    margin: auto 0;
+    text-align: center;
+}
+
+.titulo {
+    font-size: medium;
+}
+
+.foto {
+    width: 1280px;
+    height: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
