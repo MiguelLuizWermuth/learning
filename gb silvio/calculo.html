@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculo de calorias</title>
+    <script src="calcularCalorias.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <div id="top-section">
+        <h1>Cálculo de calorias</h1>
+        <img src="path/to/image.jpg" alt="Site Image">
+      </div>
+      
+      <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="calculo.html" target="_blank">Calculadora de Calorias</a></li>
+            <li><a href="aconselhamentos.html" target="_blank">Aconselhamentos sobre Alimentação</a></li>
+            <li><a href="exercicios.html" target="_blank">Exercicios Físicos</a></li>
+            <li><a href="sono.html" target="_blank">Qualidade do Sono</a></li>
+          </ul>
+        </nav>
+      </header>
+      
+      <div id="big-image">
+        <img src="path/to/big-image.jpg" alt="Big Image">
+      </div>
+      
+      <div id="calculadora">
+        <h2>Calculadora de gasto calórico</h2>
+        <label for="velocidade">Digite a velocidade média de seu cardio:</label>
+        <input type="number" id="velocidade" placeholder="Velocidade">
+        <label for="velocidade">KM/h</label></br>
+        <label for="peso">Digite seu peso:</label>
+        <input type="number" id="peso" placeholder="Seu peso">
+        <label for="peso">Kg</label></br>
+        <label for="tempo">Digite o tempo:</label>
+        <input type="number" id="tempo" placeholder="O tempo do seu cardio">
+        <label for="tempo">Minutos</label></br>
+        <button onclick="calcularCalorias()">Calcular</button>
+        <h2>Total de calorias gastas no seu cardio: <div id="calorias"></div></h2>
+      </div>
+
+      <footer>
+        <p>Footer Section</p>
+      </footer>
+</body>
+</html>
